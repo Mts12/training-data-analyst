@@ -12,7 +12,7 @@ def to_csv(rowdict):
   import hashlib
   import copy
   CSV_COLUMNS = 'weight_pounds,is_male,mother_age,plurality,gestation_weeks'.split(',')
-  print('test')
+  print('test3')
   # Create synthetic data where we assume that no ultrasound has been performed
   # and so we don't know sex of the baby. Let's assume that we can tell the difference
   # between single and multiple, but that the errors rates in determining exact number
